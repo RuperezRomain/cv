@@ -3,6 +3,7 @@
 <html>
 
 	<head>
+		<meta charset="UTF-8">
 	<style> .center{
 		text-align: center;
 		}
@@ -17,8 +18,12 @@
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		border-radius: 50px;
 		}
-		/* pour faire disparaitre les points de la liste*/
-		ul{ padding-left: 0;
+		
+		.name{
+		text-align: center;
+		size: 50px;
+		text-decoration: underline;
+		letter-spacing: 3px;
 		}
 		
 		/* style des sous titres*/
@@ -31,25 +36,69 @@
 		font-family: arial;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
 		text-align: center;
-		position: relative;
-		left: 480px;
 		}
 
-		/* test animation
-		#myDIV {
-			left: 480px;
-		    width: 200px;
-		    height: 90px;
-		    border: 1px groove white;
-		    -webkit-animation: mymove 1s infinite;
-		    animation: mymove 1s infinite;
+		.policeor{
+		color: orange;
 		}
-		@-webkit-keyframes mymove {
-    			25% {border: 15px groove orange;
-		border-radius: 10px;}
-		} */
 
+		div {
+		margin: 50px;
+		padding: 50px;
+    		border: 3px solid orange;
+		border-radius: 5px;
+		box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+		border-width: 5px;
+		}
+		
+		li{
+		list-style-type: none;
+		}
 
+		.trait {
+		margin-left: 650px;
+		    border: 1px solid black;
+		background: black;
+		}
+
+		.inline{
+		    display: inline;
+		padding-left:100px;
+		text-align: center;
+		}
+		
+		.comp{
+		    position: relative;
+		left : 130px ;
+		top: -25px;
+		}
+
+		.exp{
+		    position: relative;
+		left : 300px ;
+		top: -90px ;
+		}
+
+		.dip{
+		    position: relative;
+		left : 300px ;
+		top: -90px ;
+		}
+
+		.loi{
+		    position: relative;
+		left : 130px ;
+		top: -155px ;
+		}
+		
+		.cat {
+	    padding-left: 20px;
+    border: 1px solid black;
+}
+
+body{
+background-color: #d7f6ff;
+}
 	</style>
 	</head>
 
@@ -59,27 +108,27 @@
 		<header> 
 			<h1 class="bgblack"> Développeur logiciel </h1> 
 			<div> <!-- Informations personnelles --> 
-				<ul class="center">
-					<div id="myDIV"><li><strong>RUPEREZ Romain</strong></li>
-					<li>21 ans</li>
-					<li>Lunel</li>
-					<li>ruperez.dev@gmail.com</li></div>
+			<p class="name"><strong>RUPEREZ Romain</strong></p>
+				<ul class="center policeor">
+					<li class="inline cat">21 ans</li>
+					<li class="inline cat">Lunel</li>
+					<li class="inline cat">ruperez.dev@gmail.com</li>
 				</ul>
 			</div>
 		</header>
-		<section class="center"><!-- Compétences -->
+		<section class="comp"><!-- Compétences -->
 			<article>
-				<h2 class="bgblanc"> Compétences </h2>
+				<h2 class="bgblanc comp"> Compétences </h2>
 					<ul> 
-						<li> 360 no scope </li>
-						<li> yolo </li>
-						<li> blbablbalbalba </li>
+						<li> 360 no scope popopopopopopopopo</li>
+						<li> yolo 360 no scope popopopopopopopopopoo</li>
+						<li> blbablbalbalba 360 no scope popopopopopo</li>
 					</ul>
 			</article>
 		</section>
-		<section class="center"> <!-- Expériences -->
-				<h2 class="bgblanc"> Expériences </h2>
-				<article>
+		<section class="exp"> <!-- Expériences -->
+				<h2 class="bgblanc exp"> Expériences </h2>
+				<article class="exp">
 					<h3> En entreprise (début / fin)</h3>
 					<p> Postes occupés :</p>
 						<ul>
@@ -89,8 +138,8 @@
 						</ul>
 				</article>
 		</section>
-		<section class="center"> <!-- Diplomes -->
-			<article>
+		<section class="dip"> <!-- Diplomes -->
+			<article class="dip">
 				<h2 class="bgblanc"> Diplomes </h2>
 					<ul>
 						<li> Permis B 2016 </li>
@@ -98,10 +147,15 @@
 						<li> BEP Système Electronique Numériques 2013</li>
 			</article>
 		</section>
-		<section class="center"> <!-- Loisirs -->
-			<article>
+		<section class="loi"> <!-- Loisirs -->
+			<article class="loi">
 				<h2 class="bgblanc"> Loisirs </h2>
-					<p class"dropdown-content"> Cinéma, musique, creation artisique, jeux vidéos </p>
+					<ul>
+						<li>Cinéma</li>
+						<li>Musique</li>
+						<li>Créations artistiques</li>
+						<li>Jeux vidéos</li>
+					</ul>
 			</article>
 		</section>
 	</body>
