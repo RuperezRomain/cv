@@ -1,0 +1,106 @@
+	/* Bienvenue dans mon style.css je vous souhaite un agréable visionnage */
+
+
+		/* Alignement du texte au centre */
+		.center
+		{
+		text-align: center;
+		}
+
+		/* style du titre */
+		.bgblack{
+		border:3px inset orange;
+		background: black;
+		color : orange;
+		font-family : arial;
+		text-align: center;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius: 50px;
+		}
+
+		/*encadrement pour infos perso*/
+		div {
+		margin: 50px;
+		padding: 50px;
+    		border: 3px solid orange;
+		border-radius: 5px;
+		box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+		border-width: 5px;
+		}
+
+		/* RUperez Romain */
+		.name{
+		text-align: center;
+		text-decoration: underline;
+		letter-spacing: 3px;
+		}
+		
+		/* style des sous titres*/
+		.bgblanc{
+		border: 3px inset white;
+		width: 300px;
+		border-radius: 50px;
+		background: white;
+		color: black;
+		font-family: arial;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+		text-align: center;
+		}
+
+		/* Police orange */
+		.policeor{
+		color: orange;
+		}
+		
+		/* suppression des points de listes*/
+		li{
+		list-style-type: none;
+		}
+
+		/* modif affichage de la liste sur une seule ligne */
+		.inline{
+		display: inline;
+		padding-left:100px;
+		text-align: center;
+		}
+		
+		/* positionnement compétences */
+		.comp{
+		position: relative;
+		left : 130px ;
+		top: -25px;
+		}
+		
+		/* positionnement experiences */
+		.exp{
+		position: relative;
+		left : 300px ;
+		top: -90px ;
+		}
+
+		/* positionnement diplomes */
+		.dip{
+		position: relative;
+		left : 300px ;
+		top: -90px ;
+		}
+
+		/* positionnement loisirs */
+		.loi{
+		position: relative;
+		left : 130px ;
+		top: -155px ;
+		}
+		
+		/* bordure des infos perso */
+		.cat {
+		padding-left: 20px;
+		border: 1px none black;
+		box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+		border-radius: 5px;
+		}
+
+		/* background color */
+		body{
+		background-color: #d7f6ff;
+		}
