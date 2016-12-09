@@ -7,16 +7,16 @@
 		/* style encadrement navbar */
 		.navul{
 		list-style-type: none;
-		margin: 25px;
-		padding: 10px;
+		margin: auto;
+		padding: 10%;
 		background-color: #333;
 
 		/* lien nav */
 		}
 		.nav{
-		display: inline;
+		display: block;
 		color: #000;
-		padding: 0px 50px;
+		padding: 20px 50px;
 		}
 
 		li a {
@@ -25,7 +25,7 @@
 		text-align: center;
 		padding: 14px 25px;
 		text-decoration: none;
-		font-size: 125%;
+		font-size: 150%;
 
 		}
 
@@ -66,6 +66,14 @@
 		border-width: 5px;
 		}
 
+
+		/* le grnd monarque */
+		.img {
+		float: left
+		z-index: -1;
+		position: absolute;
+		}
+
 		/* RUperez Romain */
 		.name{
 		font-size: 150%;
@@ -97,58 +105,11 @@
 		text-align: center;
 		}
 
-/* ------- Sections ----- */
-
-		/* style des sous titres par section*/
-		.bgblanc{
-		border: 3px inset white;
-		width: 300px;
-		border-radius: 50px;
-		background: white;
-		color: black;
-		font-family: arial;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
-		text-align: center;
-		}
-		
-		/* positionnement COMPETENCES */
-		.comp{
-		position: relative;
-		left : 130px ;
-		top: -25px;
-		}
-		
-		/* positionnement EXPERIENCES */
-		.exp{
-		position: relative;
-		left : 25% ;
-		top: -90px ;
-		}
-
-		/* positionnement DIPLOMES */
-		.dip{
-		position: relative;
-		left : 300px ;
-		top: -90px ;
-		}
-
-		/* positionnement LOISIRS */
-		.loi{
-		position: relative;
-		left : 130px ;
-		top: -155px ;
-		}
-		
 
 /* ------ BACKGROUND ------ */
 
 		/* background color */
-		body{
-		background-color: #d7f6ff;
-		}
 
-		.img {
-		float: left
-		z-index: -1;
-    position: absolute;
+		body {
+		background-color: #d7f6ff;
 		}
