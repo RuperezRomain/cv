@@ -1,6 +1,8 @@
 	/* Bienvenue dans mon style.css je vous souhaite un agréable visionnage */
 
-
+body{
+	width: 100%;
+}
 
 /* ------ Nav Bar Style ------ */
 
