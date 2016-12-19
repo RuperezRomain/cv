@@ -11,18 +11,28 @@
 
 
 	<body>
-		<header> 
 
+		<header> 
 		<ul class="navul">
 		  <li class="nav"><a href="#">Profil</a></li>
-		  <li class="nav"><a href="#">Compétences</a></li>
-		  <li class="nav"><a href="#">Expériences</a></li>
-		  <li class="nav"><a href="#">Diplomes</a></li>
-		  <li class="nav"><a href="#">Loisirs</a></li>
+		  <li class="nav"><a href="#competence-et-experience">Compétences</a></li>
+		  <li class="nav"><a href="#competence-et-experience">Expériences</a></li>
+		  <li class="nav"><a href="#diplome-et-loisir">Diplomes</a></li>
+		  <li class="nav"><a href="#diplome-et-loisir">Loisirs</a></li>
 		</ul>
 
-			<h1 class="bgblack"> Développeur logiciel </h1> 
+<div class="dropdown">
+<button class="dropbtn"><div class="arrow"></div></button>
+  <div class="dropdown-content">
+		  <p class="navfoot"><a href="#"><img src="http://www.freeiconspng.com/uploads/facebook-logo-png--impending-10.png" style="height : 32px; width : 32px;" >Facebook</a></p>
+		  <p class="navfoot"><a href="#"><img src="http://findicons.com/files/icons/524/web_2/512/twitter.png" style="height : 32px; width : 32px;" >Twitter</a></p>
+		  <p class="navfoot"><a href="#"><img src="http://seeklogo.com/images/P/pinterest-icon-logo-D4965B6748-seeklogo.com.gif" style="height : 32px; width : 32px;" >Pinterest</a></p>
+  </div>
+</div>
 
+
+
+			<h1 class="bgblack"> Développeur logiciel </h1> 
 
 			<div class="borderhead"> <!-- Informations personnelles -->
 
@@ -39,8 +49,11 @@
 
 
 
+</header>
+
+
 <!-- Compétences -->
-<div class="block1">
+<div id="competence-et-experience" class="block1">
 		<section class="left-inblock">
 			<article>
 				<h2 class="bgblanc"> Compétences </h2>
@@ -68,7 +81,7 @@
 
 </div>
 <!-- diplome -->
-<div class="block1">
+<div id="diplome-et-loisir" class="block1">
 		<section class="left-inblock">
 			<article>
 				
@@ -95,14 +108,12 @@
 					</ul>
 			</article>
 		</section>
+
 </div>
+	<footer> 
 
-
-
-
-
-
-		</header>
+</footer>
+		
 
 	</body>
 
