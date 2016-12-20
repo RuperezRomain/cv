@@ -4,106 +4,102 @@
 
 	<head>
 		<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./style.css"> <!-- le ./ pour faire un chemin "absolu -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./foundation.css">
+		<link rel="stylesheet" href="./styleFound.css"> <!-- le ./ pour faire un chemin "absolu -->
 	</head>
 
 
 
 	<body>
 		<header> 
+			<nav class="large-10">
+				<ul class="menu">
+					<li><a href="#">Profil</a></li>
+					<li><a href="#">Compétences</a></li>
+					<li><a href="#">Expériences</a></li>
+					<li><a href="#">Diplomes</a></li>
+					<li><a href="#">Loisirs</a></li>
+				</ul>
+			</nav>
+			<div class="large-10 large-offset-1">
+				<h1 class="button expanded"> Développeur logiciel </h1>
+			</div>
+		</header>
 
-		<ul class="navul">
-		  <li class="nav"><a href="#">Profil</a></li>
-		  <li class="nav"><a href="#">Compétences</a></li>
-		  <li class="nav"><a href="#">Expériences</a></li>
-		  <li class="nav"><a href="#">Diplomes</a></li>
-		  <li class="nav"><a href="#">Loisirs</a></li>
-		</ul>
-
-			<h1 class="bgblack"> Développeur logiciel </h1> 
-
-
-			<div class="borderhead"> <!-- Informations personnelles -->
-
- 
+<!-- Informations personnelles -->
+		<div class="large-10 large-offset-1">
+			<div class="callout">
 				<img class="img" src="http://www.jdubuzz.com/files/2015/11/amour.jpg" width="120" height="100" />
-			<p class="name"><strong>RUPEREZ Romain</strong></p>
+				<p><strong>RUPEREZ Romain</strong></p>
 
-				<ul class="center policeor">
-					<li class="inline infos">21 ans</li>
-					<li class="inline infos">Lunel</li>
-					<li class="inline infos">ruperez.dev@gmail.com</li>
+				<ul>
+					<li>21 ans</li>
+					<li>Lunel</li>
+					<li>ruperez.dev@gmail.com</li>
 				</ul>
 			</div>
-
-
+		</div>
 
 <!-- Compétences -->
-<div class="block1">
-		<section class="left-inblock">
-			<article>
-				<h2 class="bgblanc"> Compétences </h2>
-					<ul> 
-						<li> 360 no scope popopopopopopopopo</li>
-						<li> yolo 360 no scope popopopopopopopopopoo</li>
-						<li> blbablbalbalba 360 no scope popopopopopo</li>
-					</ul>
-			</article>
-		</section>
+		<div class="large-10 large-offset-1">
+			<div class="callout clearfix">
+				<section class="float-left">
+					<article>
+						<h2 class="button"> Compétences </h2>
+						<ul> 
+							<li> 360 no scope popopopopopopopopo</li>
+							<li> yolo 360 no scope popopopopopopopopopoo</li>
+							<li> blbablbalbalba 360 no scope popopopopopo</li>
+						</ul>
+					</article>
+				</section>
 
 <!-- Expériences -->
-		<section class="right-inblock" > 
-				<h2 class="bgblanc"> Expériences </h2>
-				<article>
-					<h3> En entreprise (début / fin)</h3>
-					<p> Postes occupés :</p>
+				<section class="float-right" > 
+					<h2 class="button"> Expériences </h2>
+					<article>
+						<h3> En entreprise (début / fin)</h3>
+						<p> Postes occupés :</p>
 						<ul>
 							<li> Projectionniste des salles de cinéma : 01/03/2013 au 01/07/2013</li>
 							<li> Assistant monteur éclairage LED publiques : 15/11/2012 au 15/01/2013</li>
 							<li> Equipier en cuisine Fast-Food : 10/04/2015 au 30/04/2015 </li>
 						</ul>
-				</article>
-		</section>
+					</article>
+				</section>
+			</div>
+		</div>
 
-</div>
 <!-- diplome -->
-<div class="block1">
-		<section class="left-inblock">
-			<article>
-				
-				<h2 class="bgblanc"> Diplomes </h2>
-					<ul>
-					<li> Permis B 2016 </li>
-					<li> BAC PRO Système Electroniques Numériques 2014 </li>
-					<li> BEP Système Electronique Numériques 2013</li>
+		<div class="large-10 large-offset-1">
+			<div class="callout clearfix">
+				<section class="float-left">
+					<article>
+						<h2 class="button"> Diplomes </h2>
+						<ul>
+							<li> Permis B 2016 </li>
+							<li> BAC PRO Système Electroniques Numériques 2014 </li>
+							<li> BEP Système Electronique Numériques 2013</li>
+						<ul>
 
-			</article>
-		</section>
-
-
+					</article>
+				</section>
 
 <!-- Loisirs -->
-		<section class="right-inblock"> 
-			<article>
-				<h2 class="bgblanc"> Loisirs </h2>
-					<ul>
-						<li>Cinéma</li>
-						<li>Musique</li>
-						<li>Créations artistiques</li>
-						<li>Jeux vidéos</li>
-					</ul>
-			</article>
-		</section>
-</div>
-
-
-
-
-
-
-		</header>
-
+				<section class="float-right"> 
+					<article>
+						<h2 class="button"> Loisirs </h2>
+						<ul>
+							<li>Cinéma</li>
+							<li>Musique</li>
+							<li>Créations artistiques</li>
+							<li>Jeux vidéos</li>
+						</ul>
+					</article>
+				</section>
+			</div>
+		</div>
 	</body>
 
 </html>
