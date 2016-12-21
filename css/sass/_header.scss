@@ -1,0 +1,111 @@
+
+/* -------- Titre -------- */
+
+		/* style du titre */
+		.bgblack{
+		font-family : arial;
+		
+		    position: relative;
+		    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0,0.5);
+		    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0,0.5);
+		    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+		    padding: 5px;
+		    background-color: rgba(229,229,229,0.8);
+		margin: 5%;
+		text-align: center;
+		@include borderradius;
+		transition: 0.3s;
+		}
+
+		.bgblack::after {
+		    content: '';
+		    position: absolute;
+		    z-index: -1; /* hide shadow behind image */
+		    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+		    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+		    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);                
+		    width: 70%; 
+		    left: 15%; /* one half of the remaining 30% */
+		    height: 100px;
+		    bottom: 0;
+		}
+
+		.bgblack:hover{
+		background-color: #111;
+		color: white;
+		letter-spacing: 2px;
+		}
+
+
+
+/* ------- Infos persos ----- */
+
+		/*encadrement pour infos perso*/
+		.borderhead{
+		margin: 50px;
+		padding: 30px;
+		@include borderradius;
+		border: 2px solid black;
+		width: 90%;
+		border: 1px solid transparent;
+		background-color: rgba(229,229,229,0.3);
+		box-shadow: 0 15px 20px rgba(0, 0, 0, 0.0);
+		transition : 0.7s;
+		}
+
+
+		.borderhead:hover{
+		background-color: rgba(229,229,229,0.7);
+		border : 1px solid rgba(229,229,229,0.7);
+		box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+		padding-bottom: 20%;
+		}
+
+		/* RUperez Romain */
+		.name{
+		font-size: 150%;
+		text-align: center;
+		text-decoration: underline;
+		letter-spacing: 3px;
+		transition : 0.5s;
+		}
+
+		.name:hover{
+		letter-spacing: 10px;
+		}
+
+		/*  infos perso */
+		.infos {
+		padding-left: 20px;
+		font-size: 30px;
+		text-shadow: 1px 1px white;
+		}
+		
+
+		/* Police orange */
+		.policeor{
+		color: orange;
+		}
+
+		/* modif affichage de la liste sur une seule ligne */
+		.inline{
+		display: inline;
+		padding-left:100px;
+		text-align: center;
+		}
+
+
+/* ------ BACKGROUND ------ */
+
+		/* background color */
+		body{
+		background:url(http://cdn1.bestpsdfreebies.com/wp-content/uploads/2014/05/Hexagon-3.jpg) 0 0 no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+		}
+
+		.img {
+		float: left;
+		z-index: 0;
+    position: absolute;
+		}

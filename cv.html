@@ -5,13 +5,14 @@
 	<head>
 		<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./style.css"> <!-- le ./ pour faire un chemin "absolu -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/main.css"> <!-- le ./ pour faire un chemin "absolu -->
 	</head>
 
 
 
 	<body>
-
+<!-- NAVBAR -->
 		<header> 
 		<ul class="navul">
 		  <li class="nav"><a href="#">Profil</a></li>
@@ -20,20 +21,24 @@
 		  <li class="nav"><a href="#diplome-et-loisir">Diplomes</a></li>
 		  <li class="nav"><a href="#diplome-et-loisir">Loisirs</a></li>
 		</ul>
+<!-- DROPDOWN -->
+			<div class="dropdown">
+			<button class="dropbtn"><div class="arrow"></div></button>
+			  <div class="dropdown-content">
+				<p class="navfoot"><a href="#"><img src="http://www.freeiconspng.com/uploads/facebook-logo-png--impending-10.png" style="height : 32px; width : 32px;" >Facebook</a></p>
+				<p class="navfoot"><a href="#"><img src="http://findicons.com/files/icons/524/web_2/512/twitter.png" style="height : 32px; width : 32px;" >Twitter</a></p>
+				<p class="navfoot"><a href="#"><img src="http://seeklogo.com/images/P/pinterest-icon-logo-D4965B6748-seeklogo.com.gif" style="height : 32px; width : 32px;" >Pinterest</a></p>
+			  </div>
+			</div>
 
-<div class="dropdown">
-<button class="dropbtn"><div class="arrow"></div></button>
-  <div class="dropdown-content">
-		  <p class="navfoot"><a href="#"><img src="http://www.freeiconspng.com/uploads/facebook-logo-png--impending-10.png" style="height : 32px; width : 32px;" >Facebook</a></p>
-		  <p class="navfoot"><a href="#"><img src="http://findicons.com/files/icons/524/web_2/512/twitter.png" style="height : 32px; width : 32px;" >Twitter</a></p>
-		  <p class="navfoot"><a href="#"><img src="http://seeklogo.com/images/P/pinterest-icon-logo-D4965B6748-seeklogo.com.gif" style="height : 32px; width : 32px;" >Pinterest</a></p>
-  </div>
-</div>
-
-
-
+<!-- HEADER -->
+<div class="container">
 			<h1 class="bgblack"> Développeur logiciel </h1> 
 
+		<div class="row">
+		<div class="col-sm-2">
+		</div>
+		<div class="col-sm-8">
 			<div class="borderhead"> <!-- Informations personnelles -->
 
  
@@ -47,9 +52,56 @@
 				</ul>
 			</div>
 
-
-
+		</div>
+		</div>
 </header>
+
+
+<!-- TEST gauche -->
+		<div class="row block1">
+		<div class="col-sm-7">
+			<div class="borderhead"> <!-- Informations personnelles -->
+
+			<p class="name"><strong>RUPEREZ Romain</strong></p>
+
+				<ul class="center policeor">
+					<li class="inline infos">21 ans</li>
+					<li class="inline infos">Lunel</li>
+					<li class="inline infos">ruperez.dev@gmail.com</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-sm-5">
+		</div>
+		</div>
+
+
+
+<!-- TEST droite -->
+		<div class="row block1">
+		<div class="col-sm-5">
+		</div>
+		<div class="col-sm-7">
+			<div class="borderhead"> <!-- Informations personnelles -->
+
+			<h2 class="bgblanc"> Compétences </h2>
+
+				<ul class="center policeor">
+					<li class="inline infos">21 ans</li>
+					<li class="inline infos">Lunel</li>
+					<li class="inline infos">ruperez.dev@gmail.com</li>
+				</ul>
+			</div>
+		</div>
+
+
+		</div>
+
+
+
+
+
 
 
 <!-- Compétences -->
@@ -110,8 +162,10 @@
 		</section>
 
 </div>
-	<footer> 
+</div>
 
+
+<footer> 
 </footer>
 		
 
