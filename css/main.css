@@ -1,0 +1,214 @@
+@media screen and (min-width: 320px) {
+  ul {
+    display: block; }
+
+  li {
+    list-style: none; }
+
+  i {
+    color: #108F8C; }
+
+  h3 {
+    padding: 10%;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold; }
+
+  h4 {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold; }
+
+  .margin-bot {
+    margin-bottom: 15%; } }
+@media screen and (min-width: 768px) {
+  ul {
+    display: block; }
+
+  h3 {
+    padding: 5%; }
+
+  .margin-bot {
+    margin-bottom: 10%; } }
+@media screen and (min-width: 1200px) {
+  ul {
+    display: block; }
+
+  .margin-bot {
+    margin-bottom: 5%; }
+
+  h3, h4 {
+    transition: 0.3s; }
+
+  h3:hover {
+    letter-spacing: 2px; }
+
+  h4:hover {
+    letter-spacing: 1px; } }
+@media screen and (min-width: 320px) {
+  .experience-background {
+    background-color: #fcfcfc;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%; } }
+@media screen and (min-width: 768px) {
+  .experience-background {
+    background-color: #fcfcfc;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 55%; } }
+@media screen and (min-width: 1200px) {
+  .experience-background {
+    background-color: #fcfcfc;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-bottom: 0%;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 60%;
+    transition: 0.3s; }
+
+  .experience-background:hover {
+    background-color: #fdfdfd;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.5); } }
+@media screen and (min-width: 320px) {
+  .foot-bg {
+    text-align: center;
+    color: white;
+    background-color: #108F8C;
+    padding: 3%; } }
+@media screen and (min-width: 320px) {
+  .profil-background {
+    background-color: #fcfcfc;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
+    margin-top: 5%; }
+
+  .image {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+
+  .image h2 {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 100%; }
+
+  .progress::after {
+    content: url(http://www.ashbringer.fr/images/pages/account/char-icon_prof.png);
+    position: relative;
+    right: 4%;
+    bottom: 60%;
+    display: inline-block;
+    z-index: 60;
+    -webkit-animation: spin 6s ease-in infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite; }
+
+  @-moz-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } }
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } }
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } } }
+@media screen and (min-width: 768px) {
+  .profil-background {
+    background-color: #fcfcfc;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 40%; }
+
+  .image {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+
+  .image h2 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 100%; }
+
+  .progress::after {
+    content: url(http://www.ashbringer.fr/images/pages/account/char-icon_prof.png);
+    position: relative;
+    right: 4%;
+    bottom: 60%;
+    display: inline-block;
+    z-index: 60;
+    -webkit-animation: spin 6s ease-in infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite; }
+
+  @-moz-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } }
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } }
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } } }
+@media screen and (min-width: 1200px) {
+  .image {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+
+  .image h2 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 100%; }
+
+  .profil-background {
+    background-color: #fcfcfc;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 35%;
+    transition: 0.3s; }
+
+  .profil-background:hover {
+    background-color: #fdfdfd;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.5); }
+
+  .progress::after {
+    content: url(http://www.ashbringer.fr/images/pages/account/char-icon_prof.png);
+    position: relative;
+    right: 3%;
+    bottom: 60%;
+    display: inline-block;
+    z-index: 60;
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite; }
+
+  @-moz-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } }
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } }
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg); } } }
+
+/*# sourceMappingURL=main.css.map */

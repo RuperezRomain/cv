@@ -1,0 +1,153 @@
+@media screen and (min-width: 320px) {
+
+.profil-background
+{
+background-color:rgba(252,252,252,1);
+box-shadow: 0px 3px 8px 1px rgba(0,0,0,0.2);
+margin-bottom: 5%;
+margin-top: 5%;
+}
+
+.image { 
+position: relative; 
+width: 100%;
+height: 100%;
+}
+
+.image h2 { 
+   position: absolute; 
+   top: 60%; 
+   left: 5%; 
+   width: 100%;
+}
+
+.progress::after{
+	content: url(http://www.ashbringer.fr/images/pages/account/char-icon_prof.png);
+	position: relative;
+	right:4%;
+	bottom:60%;
+	display:inline-block;
+	z-index:60;
+-webkit-animation:spin 6s ease-in infinite;
+-moz-animation:spin 6s linear infinite;
+animation:spin 6s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+.profil-background
+{
+background-color:rgba(252,252,252,1);
+box-shadow: 0px 3px 8px 1px rgba(0,0,0,0.2);
+margin-bottom: 5%;
+margin-top: 2%;
+width:40%;
+}
+
+.image { 
+position: relative; 
+width: 100%;
+height: 100%;
+}
+
+.image h2 { 
+   position: absolute; 
+   top: 50%; 
+   left: 5%; 
+   width: 100%;
+}
+
+
+.progress::after{
+	content: url(http://www.ashbringer.fr/images/pages/account/char-icon_prof.png);
+	position: relative;
+	right:4%;
+	bottom:60%;
+	display:inline-block;
+	z-index:60;
+-webkit-animation:spin 6s ease-in infinite;
+-moz-animation:spin 6s linear infinite;
+animation:spin 6s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+.image { 
+position: relative; 
+width: 100%;
+height: 100%;
+}
+
+.image h2 { 
+   position: absolute; 
+   top: 50%; 
+   left: 5%; 
+   width: 100%;
+}
+
+.profil-background
+{
+background-color:rgba(252,252,252,1);
+box-shadow: 0px 3px 8px 1px rgba(0,0,0,0.2);
+margin-bottom: 5%;
+margin-top:2%;
+width:35%;
+transition: 0.3s;
+}
+
+.profil-background:hover
+{
+background-color:rgba(253,253,253,1);
+box-shadow: 0px 3px 8px 1px rgba(0,0,0,0.5);
+}
+
+.progress::after{
+	content: url(http://www.ashbringer.fr/images/pages/account/char-icon_prof.png);
+	position: relative;
+	right:3%;
+	bottom:60%;
+	display:inline-block;
+	z-index:60;
+-webkit-animation:spin 5s linear infinite;
+-moz-animation:spin 5s linear infinite;
+animation:spin 5s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+}
+
+
+}
